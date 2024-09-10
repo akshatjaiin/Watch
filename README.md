@@ -13,7 +13,7 @@ This Python script extracts YouTube video URLs from HTML `<iframe>` tags and con
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/youtube-iframe-parser.git
+git clone https://github.com/akshatjaiin/watch.git
 cd youtube-iframe-parser
 Make sure you have Python installed (version 3.x is recommended).
 
@@ -21,7 +21,7 @@ Make sure you have Python installed (version 3.x is recommended).
 Run the script:
 bash
 
-python3 script_name.py
+python watch.py
 When prompted, input the HTML containing a YouTube iframe tag:
 html
 
@@ -52,8 +52,6 @@ regex
 (?
 /)?(\w+): Captures the YouTube video ID.
 .+"</iframe>$: Matches the closing </iframe> tag.
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 🤝 Contributing
 Feel free to submit a pull request or open an issue if you have suggestions or improvements. All contributions are welcome!
