@@ -35,7 +35,7 @@ bash
 $ python3 script_name.py
 HTML: <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
 https://youtu.be/dQw4w9WgXcQ
-
+```
 🧠 How It Works
 The script takes an HTML string input that contains an <iframe> tag embedding a YouTube video.
 It uses a regular expression to identify the video ID from the src attribute of the <iframe>.
@@ -52,6 +52,8 @@ regex
 (?
 /)?(\w+): Captures the YouTube video ID.
 .+"</iframe>$: Matches the closing </iframe> tag.
+example:
+![image](https://github.com/user-attachments/assets/efa93a41-3dfd-4936-bb67-fd362fd1ea82)
 
 🤝 Contributing
 Feel free to submit a pull request or open an issue if you have suggestions or improvements. All contributions are welcome!
